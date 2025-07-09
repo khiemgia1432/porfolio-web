@@ -1,12 +1,84 @@
 <!DOCTYPE html>
     <html>
         <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale= 1.0">
             <title>profolio_web</title>
+           <style>
+            .icon{
+                display: inline-block;
+                justify-self: space-around;
+                width: 40px;
+                height: 30px;
+
+            }
+            body{
+                background-color: #E4E6EB;
+            }
+            .middle{
+                display:grid;
+                justify-self: center;
+            }
+            .nav{
+                min-height: 42px;
+                display: flexbox;
+                justify-self:center;
+            }
+            .nav-list{
+                padding-left: 0;
+                margin: auto 16px; 
+            }
+            .nav-item-1{
+                background-color: #FFB400;
+                margin: 0 8px;
+            }
+           </style>
         </head>
         <body>
-
-            <h1>This is a Heading</h1>
-            <p>This is a paragraph.</p>
-
+            <div style="width: 305px; height: 1315px; background-color: white; flex-shrink: 0;">
+                <div class="middle">
+                    <div style="margin: auto;">                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                        <img src="Profile.jpg" alt="profile picture" width="150px" height="150px" >
+                        <p style="font-size: larger;">Rayan Adlardard</p>
+                        <p style="color: grey ;">Font-end Developer</p>
+                    </div>
+                    <div>
+                        <div class="icon"><img src="Dribbble.png" alt="profile picture" ></div>
+                        <div class="icon"><img src="Facebook.png" alt="profile picture" ></div>
+                        <div class="icon"><img src="Instagram.png" alt="profile picture" ></div>
+                        <div class="icon"><img src="Linkeding.png" alt="profile picture"></div>
+                        <div class="icon"><img src="Twitter.png" alt="profile picture" ></div>
+                        <div class="icon"><img src="Youtube.png" alt="profile picture"></div>
+                    <div>
+                        <hr>
+                    </div>
+                </div>
+                <div>
+                    <div class="nav">
+                        <span class="nav-item-1">Age</span>
+                        <span style=" margin-left: 190px;
+                        margin-right: auto;
+                        text-align: right;">24</span>
+                    </div>
+                    <div class="nav">
+                        <span class="nav-item-1">Residence:</span>
+                        <span style=" margin-left: 141px;
+                        margin-right: auto;
+                        text-align: right;">BD</span>
+                    </div>
+                    <div class="nav">
+                        <span class="nav-item-1">Freelance:</span>
+                        <span style="color: green;  margin-left: 106px;
+                        margin-right: auto;
+                        text-align: right;">Available </span>
+                    </div>
+                    <div class="nav">
+                        <span class="nav-item-1">Address:</span>
+                        <span style="margin-left: 57px;
+                        margin-right: auto;
+                        text-align: right;">Dhaka,Bangladesh </span>
+                    </div>
+                </div>
+            </div>
         </body>
     </html>

@@ -1,83 +1,175 @@
 <!DOCTYPE html>
-    <html>
-        <head>
+<html lang="en">
+            <head>
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>profolio_web</title>
-           <style>
-            .icon{
-                display: inline-block;
-                justify-self: space-around;
-                width: 40px;
-                height: 30px;
-
-            }
-            body{
-                background-color: #E4E6EB;
-            }
-            .middle{
-                display:grid;
-                justify-self: center;
-            }
-            .nav{
-                min-height: 42px;
-                display: flexbox;
-                justify-self:center;
-            }
-            .nav-list{
-                padding-left: 0;
-                margin: auto 16px; 
-            }
-            .nav-item-1{
-                background-color: #FFB400;
-                margin: 0 8px;
-            }
-           </style>
+            <link rel="stylesheet" href="style.css">
+            <link
+                href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;7
+                00&display=swap" rel="stylesheet">
         </head>
         <body>
-            <div style="width: 305px; height: 1315px; background-color: white; flex-shrink: 0;">
-                <div class="middle">
-                    <div style="margin: auto;">                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-                        <img src="Profile.jpg" alt="profile picture" width="150px" height="150px" >
-                        <p style="font-size: larger;">Rayan Adlardard</p>
-                        <p style="color: grey ;">Font-end Developer</p>
+            <div class="body-container">
+                <div style="width: 305px; height: 1150px; background-color: white; flex-shrink: 0;">
+                    <div class="middle">
+                        <div style="margin-top: 40px; text-align: center;margin-bottom: 10px;">                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                            <img src="picture/Profile.jpg" alt="profile picture" width="150px" height="150px" >
+                            <p style="font-size: larger; margin: 10px 0;">Rayan Adlardard</p>
+                            <p style="color: grey ;">Font-end Developer</p>
+                        </div>
+                        <div class="icons">
+                            <div class="icon"><img src="icons/Dribbble.png" alt="profile picture" ></div>
+                            <div class="icon"><img src="icons/Facebook.png" alt="profile picture" ></div>
+                            <div class="icon"><img src="icons/Instagram.png" alt="profile picture" ></div>
+                            <div class="icon"><img src="icons/Linkeding.png" alt="profile picture"></div>
+                            <div class="icon"><img src="icons/Twitter.png" alt="profile picture" ></div>
+                            <div class="icon"><img src="icons/Youtube.png" alt="profile picture"></div>
+                        </div>
+                    </div>
+                    <hr style="color: grey;width: 80%;opacity: 0.2;margin-bottom: 20px;margin-top: 10px;">
+                    <div>
+                        <div class="nav">
+                            <span class="info-label">Age</span>
+                            <span class="info-items">24</span>
+                        </div>
+                        <div class="nav">
+                            <span class="info-label">Residence:</span>
+                            <span class="info-items">BD</span>
+                        </div>
+                        <div class="nav">
+                            <span class="info-label">Freelance:</span>
+                            <span class="info-items", style="color: green;">Available </span>
+                        </div>
+                        <div class="nav">
+                            <span class="info-label">Address:</span>
+                            <span class="info-items">Dhaka,Bangladesh </span>
+                        </div>
+                        <hr style="color: grey;width: 80%;opacity: 0.2;margin-bottom: 20px;">
+                    </div>
+                    <h3 class="font-nav">Languages</h3>
+                    <div>
+                        <div class="nav-2">
+                            <span class="info-lang">Bangla</span>
+                            <span class="info-per">100%</span>
+                            
+                        </div>
+                        <div class="fancy-horizontal-bar"style="width: 240px;"></div>
+                        
                     </div>
                     <div>
-                        <div class="icon"><img src="Dribbble.png" alt="profile picture" ></div>
-                        <div class="icon"><img src="Facebook.png" alt="profile picture" ></div>
-                        <div class="icon"><img src="Instagram.png" alt="profile picture" ></div>
-                        <div class="icon"><img src="Linkeding.png" alt="profile picture"></div>
-                        <div class="icon"><img src="Twitter.png" alt="profile picture" ></div>
-                        <div class="icon"><img src="Youtube.png" alt="profile picture"></div>
+                        <div class="nav-2">
+                            <span class="info-lang">English</span>
+                            <span class="info-per">80%</span>
+                            
+                        </div>
+                        <div class="fancy-horizontal-bar"style="width: 200px;"></div>
+                    </div>
                     <div>
-                        <hr>
+                        <div class="nav-2">
+                            <span class="info-lang">spanish</span>
+                            <span class="info-per">60%</span>
+                            
+                        </div>
+                        <div class="fancy-horizontal-bar"style="width: 160px;"></div>
+                        
+                    </div>
+                    <hr style="color: grey;width: 80%;opacity: 0.2;margin-bottom: 20px;margin-top: 20px;">
+                    <h3 class="font-nav">Skills</h3>
+                    <div>
+                        <div class="nav-2">
+                            <span class="info-lang">Html</span>
+                            <span class="info-per">90%</span>
+                            
+                        </div>
+                        <div class="fancy-horizontal-bar"style="width: 220px;"></div>
+                        
+                    </div>
+                    <div>
+                        <div class="nav-2">
+                            <span class="info-lang">CSS</span>
+                            <span class="info-per">85%</span>
+                            
+                        </div>
+                        <div class="fancy-horizontal-bar"style="width: 210px;"></div>
+                    </div>
+                    <div>
+                        <div class="nav-2">
+                            <span class="info-lang">JS</span>
+                            <span class="info-per">80%</span>
+                            
+                        </div>
+                        <div class="fancy-horizontal-bar"style="width: 200px;"></div>
+                        
+                    </div>
+                    <div>
+                        <div class="nav-2">
+                            <span class="info-lang">PHP</span>
+                            <span class="info-per">75%</span>
+                            
+                        </div>
+                        <div class="fancy-horizontal-bar"style="width: 190px;"></div>
+                        
+                    </div>
+                    <div>
+                        <div class="nav-2">
+                            <span class="info-lang">WordPress</span>
+                            <span class="info-per">85%</span>
+                            
+                        </div>
+                        <div class="fancy-horizontal-bar"style="width: 210px;"></div>
+                        
+                    </div>
+                    <hr style="color: grey;width: 80%;opacity: 0.2;margin-bottom: 20px;margin-top: 20px;">
+                    <h3 class="font-nav">Extra Skills</h3>
+                    <div class="nav-3">
+                        <img src="icons/Icons.png" alt="none"> <span class="font-nav-1">Bootstrap, Materialize</span>
+                    </div>
+                    <div class="nav-3">
+                        <img src="icons/Icons.png" alt="none"> <span class="font-nav-1">Stylus, Sass, Less</span>
+                    </div>
+                    <div class="nav-3">
+                        <img src="icons/Icons.png" alt="none"> <span class="font-nav-1">Gulp, Webpack, Grunt</span>
+                    </div>
+                    <div class="nav-3">
+                        <img src="icons/Icons.png" alt="none"> <span class="font-nav-1">GIT Knowledge</span>
+                    </div>
+                    <hr style="color: grey;width: 80%;opacity: 0.2;margin-bottom: 20px;margin-top: 20px;">
+                    <div class="dl-button">
+                        <button class="download-button">DOWNLOAD CV <img class="dl-pic"src="icons/Vector.png" alt=""></button>
                     </div>
                 </div>
-                <div>
-                    <div class="nav">
-                        <span class="nav-item-1">Age</span>
-                        <span style=" margin-left: 190px;
-                        margin-right: auto;
-                        text-align: right;">24</span>
+                <div class="middle-part">
+                    <div class="menu-pic" >
+                        <img style="width: 930px;" src="picture/Main menu.png" alt="">
+                        <div class="menu-info-1">
+                        I’m Rayan Adlrdard
+                        <span style="color: #FFB400;">Front-end</span> Developer 
+                        </div>
+                        <div class="menu-info-2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.
+                        </div>
+                        <div class="menu-info-3">
+                            <div class="icons">
+                            <div class="icon"><img src="icons/Dribbble.png" alt="profile picture" ></div>
+                            <div class="icon"><img src="icons/Facebook.png" alt="profile picture" ></div>
+                            <div class="icon"><img src="icons/Instagram.png" alt="profile picture" ></div>
+                            <div class="icon"><img src="icons/Linkeding.png" alt="profile picture"></div>
+                            <div class="icon"><img src="icons/Twitter.png" alt="profile picture" ></div>
+                            <div class="icon"><img src="icons/Youtube.png" alt="profile picture"></div>
+                        </div>
+                        <div style="position:absolute;
+                                    top: 50px;
+                                    left: 40px;">
+                            <div class="dl-button">
+                            <button class="hire-button">HIRE ME <img class="hire-pic"src="icons/Frame.png" alt=""></button>
+                            </div>
+                        </div>
+                        </div>
                     </div>
-                    <div class="nav">
-                        <span class="nav-item-1">Residence:</span>
-                        <span style=" margin-left: 141px;
-                        margin-right: auto;
-                        text-align: right;">BD</span>
-                    </div>
-                    <div class="nav">
-                        <span class="nav-item-1">Freelance:</span>
-                        <span style="color: green;  margin-left: 106px;
-                        margin-right: auto;
-                        text-align: right;">Available </span>
-                    </div>
-                    <div class="nav">
-                        <span class="nav-item-1">Address:</span>
-                        <span style="margin-left: 57px;
-                        margin-right: auto;
-                        text-align: right;">Dhaka,Bangladesh </span>
-                    </div>
+                </div>
+                <div class="right-part">
+
                 </div>
             </div>
         </body>

@@ -97,14 +97,18 @@
                 width: 200px;
                 height: 40px;
                 cursor: pointer;
-                transform: opacity 0,15s;
+                transform: background-color 0,15s, color 0,15s;
                 border-radius: 3px;
             }
             .dl-button{
                 text-align: center;
             }
             .download-button:hover{
-                opacity: 0.8;
+                background-color: black ;
+                color: #FFB400;
+            }
+            .dl-button:active{
+                opacity: 0,5;
             }
             .dl-pic{
                 margin-left: 10px;
@@ -119,6 +123,7 @@
             .menu-pic{
                 height: 467px;
                 position: relative;
+                margin-bottom: 150px;
             }
             .menu-info-1{
                 font-size: 48px;
@@ -149,20 +154,85 @@
                 width: 130px;
                 height: 45px;
                 cursor: pointer;
-                transform: opacity 0,15s;
+                transform: background-color 0,15s, color 0,15s;
                 font-weight: bold;
                 font-size: 15px;
                 border-radius: 3px;
             }
             .hire-button:hover{
-                opacity: 0.8;
+                background-color: black ;
+                color: #FFB400;
+            }
+            .hire-button:active{
+                opacity: 0,3;
             }
             .hire-pic{
                 align-items: center;
                 width: 16px;
             }
+            .service-dipstription{
+                width: 430px;
+                text-align: center;
+                margin-left: 250px;
+                color:#767676;
+                margin-bottom: 40px;
+            }
+            .service-info{
+                margin-top: 100px;
+                text-align: center; 
+            }
+            .service-options{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                gap: 10px;
+            }
+            .price-options{
+                display: flex;
+                flex-direction: row;
+                gap: 10px
+            }
+            .order-button{
+                background-color: rgb(236, 235, 235);
+                border: none;
+                width: 170px;
+                height: 45px;
+                cursor: pointer;
+                transform: background-color 0,15s, color 0,15s;
+                font-weight: bold;
+                font-size: 15px;
+                border-radius: 30px;
+            }
+            .order-button:hover{
+                background-color: #FFB400;
+            }
+
+
+
+
+
+
+
+
+
+
+
             .right-part{
                 width: 80px; 
                 height: 1150px; 
                 background-color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
             }
+            .contrast-item{
+                margin-top: 50px;
+                margin-bottom: 130px;
+            }
+            .home-menu-bar{
+                margin: 40px 0;
+                cursor: pointer;
+            }
+            .menu-options{
+                border-radius: 50%;
+            }
+
